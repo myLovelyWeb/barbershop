@@ -245,6 +245,11 @@ img {
     color: #fff
 }
 
+.nav__link:not([href]) {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
 .site-nav__item--current .nav__link {
     pointer-events: none
 }
@@ -416,6 +421,11 @@ img {
     line-height: 24px
 }
 
+.news__btn:not([href]) {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
 .gallery {
     width: 300px
 }
@@ -431,8 +441,10 @@ img {
     width: 140px;
     margin: 0;
     line-height: 24px;
+    opacity: 0.3;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    pointer-events: none;
 }
 
 .gallery-container__btn--back {
@@ -465,6 +477,11 @@ img {
 
 .contacts__btn {
     margin-right: 16px
+}
+
+.contacts__btn:not([href]) {
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .appointment {
@@ -575,6 +592,11 @@ img {
     color: #fff
 }
 
+.footer-contacts a {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
 .footer__contacts {
     width: 320px;
     margin: 0 80px 0 0
@@ -621,7 +643,12 @@ img {
     justify-content: center;
     width: 43px;
     height: 43px;
-    background-color: #000
+    background-color: #000;
+}
+
+.social-btn:not([href]) {
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .social-btn:focus,.social-btn:hover {
@@ -792,7 +819,8 @@ img {
     font-family: "PT Sans Narrow",sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #000
+    color: #000;
+    cursor: pointer;
 }
 
 .filter-input:focus+label,.filter-input:hover+label,.login-password-info__checkbox:focus,.login-password-info__checkbox:hover {
@@ -843,7 +871,9 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     color: #000;
-    text-decoration: underline
+    text-decoration: underline;
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .login-password-info__restore:focus,.login-password-info__restore:hover {
@@ -933,6 +963,11 @@ img {
 
 .breadcrumbs a {
     text-decoration: none
+}
+
+.breadcrumbs a:not([href]) {
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .inner-content {
@@ -1211,7 +1246,7 @@ img {
 
 .filter__btn {
     min-width: 112px;
-    padding: 12px 25px
+    padding: 12px 25px;
 }
 
 .catalog {
@@ -1260,6 +1295,11 @@ img {
     flex-direction: column;
     text-decoration: none;
     color: #000
+}
+
+.catalog__link:not([href]) {
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .catalog-link h3 {
@@ -1312,6 +1352,11 @@ img {
     line-height: 20px
 }
 
+.catalog__price a:not([href]) {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
 .catalog-price b {
     font-size: 14px;
     font-family: "PT Sans Narrow",sans-serif;
@@ -1357,6 +1402,11 @@ img {
 .pagination-item--current a {
     color: #000;
     background-color: #fff
+}
+
+.pagination-item a:not([href]) {
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .product-photos {
@@ -1457,7 +1507,9 @@ img {
 .product-info-price__btn {
     padding: 13px 17px 11px;
     min-width: 78px;
-    line-height: 24px
+    line-height: 24px;
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .product-info h3,.product-info li {
